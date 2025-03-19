@@ -1,0 +1,89 @@
+.home-page {
+  background-color: hsl(210, 40%, 90%);
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  min-height: 100vh; 
+  overflow-y: auto; 
+  text-align: center; 
+}
+
+
+.services-header {
+  text-align: center;
+  padding: 80px 1rem 3rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.services-header h2 {
+  font-size: 2.5rem;
+  color: #1a202c;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.services-header p {
+  font-size: 1.25rem;
+  color: #4a5568;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+
+.service-booking-container {
+  padding: 20px;
+  margin-top: 20px; 
+  border-radius: 10px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 20px auto; 
+}
+
+.item-card {
+  flex: 1 1 280px;
+  min-width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px; /* Add margin-right between items */
+}
+
+.item-card h4 {
+  margin-bottom: 15px;
+}
+
+.item-card select,
+.item-card textarea {
+  margin-bottom: 10px;
+}
+
+.item-card label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Total Price Section */
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}

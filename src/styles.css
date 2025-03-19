@@ -1,0 +1,136 @@
+
+body {
+  background-color: hsl(210, 40%, 90%);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.logo {
+  text-align: left;
+  align-items: flex-start;
+  align-content: baseline;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%; 
+  padding: 20px; 
+  box-sizing: border-box;
+  
+}
+
+.service-booking {
+  max-width: 1200px; 
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.service-booking input[type="number"],
+.service-booking select,
+.service-booking textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button */
+.service-booking button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.service-booking button:hover {
+  background-color: #45a049;
+}
+
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start; 
+  margin-top: 20px;
+}
+
+
+.item-card {
+  flex: 1 1 280px; 
+  min-width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item-card h4 {
+  margin-bottom: 15px;
+}
+
+.item-card select,
+.item-card textarea {
+  margin-bottom: 10px;
+}
+
+.item-card label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Total Price Section */
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Form Header */
+h2 {
+  text-align: center;
+  color: hsl(210, 50%, 40%);
+}
+
+/* Error Message */
+span {
+  color: red;
+  font-size: 14px;
+}
+
+/* Header section: logo on the left */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Keeps the logo to the left */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 150px; /* Adjust logo size as necessary */
+}
